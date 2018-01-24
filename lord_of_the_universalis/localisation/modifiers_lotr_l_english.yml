@@ -206,6 +206,13 @@
  province_dol_amroth_coast_raided: "Coastline Raided"
  desc_province_dol_amroth_coast_raided: "Our Coastline has been raided."
  
+ #----------------------------
+ # Orcs
+ #----------------------------
+ 
+ stronger_orc_troops: "Stronger Orc Warriors."
+ reinforce_orc_troops: "More Orcs join your army."
+ 
  
  #----------------------------
  # Opinion
