@@ -101,7 +101,7 @@ religion_group_khazad = {
 
 religion_group_eldar = {
 	defender_of_faith = no
-	can_form_personal_unions = no
+	can_form_personal_unions = yes
 	flags_with_emblem_percentage = 33 # default == 0
 	flag_emblem_index_range = { 1 18 }
 	
