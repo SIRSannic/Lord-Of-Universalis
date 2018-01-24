@@ -1,0 +1,16 @@
+animation = {
+	name = "gondor_soldier_move_anim"
+	file = "gondor_soldier_move_anim.anim"
+}
+
+animation = {
+	name = "gondorattack_anim"
+	file = "gondorattack_anim.anim"
+}
+
+animation = {
+	name = "gondoridle_anim"
+	file = "gondoridle_anim.anim"
+}
+
+
