@@ -15,8 +15,10 @@ on_startup = {
 		lotr_general.18
 		lotr_general.19
 		lotr_general.22
-        lotr_setup.1
+      		lotr_setup.1
 		flavor_gondor.12
+		flavor_elections
+		flavor_orc
 	}
     
     if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_startup" }
@@ -200,12 +202,18 @@ on_regent = {
 
 # country 
 on_new_term_election = {
-	if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_new_term_election" }
+if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_new_term_election" }
+	events = {
+		flavor_elections.1
+	}
 }
 
 # country 
 on_death_election = {
-	if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_death_election" }
+if = { limit = { has_global_flag = enable_onaction_logging } log = "ON_ACTIONS - [Root.GetName] - on_death_election" }
+	events = {
+		flavor_elections.2
+	}
 }
 
 # country 
