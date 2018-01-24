@@ -465,6 +465,12 @@
  flavor_dunedain.10.d: "The fight continues for our survival and our way of life. The people are afraid that this struggel may never end."
  flavor_dunedain.10.a: "It's a struggel we all face"
  
+ #Orc Religion
+ flavor_orc.1.t: "Infighting"
+ flavor_orc.1.d: "The Orcs are fighting among eachother to determine who is the strongest. Some of your Orcs will perish in the process!"
+ flavor_orc.1.a: "Let them fight, We need only the strongest Orcs!"
+ flavor_orc.1.b: "Break up the fighting I need every single one of them!"
+ 
  # Events(Race Buffs)
  LOTR_HUMAN.1t: "You are human"
  LOTR_HUMAN.1d: "The race of Men is the second race of beings created by the supreme God, Ilúvatar. Men bear the Gift of Men, which is mortality, and therefore they age and die when their time comes, and are susceptible to illness and disease."
@@ -499,3 +505,12 @@
  LOTR_SPIDER.1t: "You are Spiders"
  LOTR_SPIDER.1d: "The Great Spiders, also known as the Spawn of Ungoliant, were a race of oversized and sentient arachnids that lived in Middle-Earth, particularly in dark and perilous places affected by the power of the Shadow.  Like Orcs and Goblins, Great Spiders were known to detest light, yet they thirsted for it and sought to devour it."
  LOTR_SPIDER.1a: "Understood!"
+ 
+ # Elections (Hobbits)
+ flavor_elections.1.t:0 "Election!"
+ flavor_elections.1.desc:0 "The term is up for $MONARCH$. With enough support he can stay in office, but then he must defeat his three primary competitors..."
+ flavor_elections.1.a:0 "Keep $MONARCH$"
+ flavor_elections.1.b:0 "Bureaucrat Candidate"
+ flavor_elections.1.c:0 "Diplomat Candidate"
+ flavor_elections.1.d:0 "Military Candidate"
+ flavor_elections.2.desc:0 "The unfortunate passing of $MONARCH$ forces us to hold a premature election. Three primary candidates have been nominated..."
