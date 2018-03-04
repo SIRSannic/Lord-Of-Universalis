@@ -470,6 +470,10 @@
  flavor_orc.1.d: "The Orcs are fighting among eachother to determine who is the strongest. Some of your Orcs will perish in the process!"
  flavor_orc.1.a: "Let them fight, We need only the strongest Orcs!"
  flavor_orc.1.b: "Break up the fighting I need every single one of them!"
+ flavor_orc.3.t: "A new Warlord Rises"
+ flavor_orc.3.d: "A new orc warlord emerges from within your ranks!"
+ flavor_orc.3.a: "Good! we could use a strong leader!!"
+ 
  
  # Events(Race Buffs)
  LOTR_HUMAN.1t: "You are human"
