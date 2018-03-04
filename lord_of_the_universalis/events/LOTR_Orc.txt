@@ -42,3 +42,52 @@ country_event = {
 		}
         }
 }
+
+# Meat is back on the menu boys
+country_event = {
+	id = flavor_orc.2
+	title = flavor_orc.2.t
+	desc = flavor_orc.2.d
+	picture = CIVIL_WAR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+			religion_group = religion_orkish
+		NOT = {
+			has_country_modifier = stronger_orc_troops
+			has country_modifier = reinforce_orc_troops
+		}
+
+	
+	}
+	
+	#Let them fight
+	option = {
+		name = "flavor_orc.2.a"
+        }
+}
+
+# A New Warlord Rises
+country_event = {
+	id = flavor_orc.3
+	title = flavor_orc.3.t
+	desc = flavor_orc.3.d
+	picture = CIVIL_WAR_eventPicture
+
+	is_triggered_only = yes
+
+	trigger = {
+		religion_group = religion_orkish
+			if = {
+				limit = {
+					num_of_generals = <2
+					}
+					#A New Warlord Rises
+						option = {
+						name = "flavor_orc.3.a"
+						create_general = 45
+							}
+			}
+		}
+}
