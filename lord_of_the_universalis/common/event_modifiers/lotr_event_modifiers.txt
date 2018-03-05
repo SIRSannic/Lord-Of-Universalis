@@ -696,3 +696,9 @@ reinforce_orc_troops = {
 	manpower_recovery_speed = 0.20
 	infantry_power = -0.05
 }
+
+orc_food_bonus = {
+	add_base_production = 1
+	change_trade_goods = livestock
+	add_piety = 0.25
+}
