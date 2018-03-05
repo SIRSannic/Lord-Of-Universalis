@@ -10,7 +10,7 @@ country_event = {
 	id = flavor_orc.1
 	title = flavor_orc.1.t
 	desc = flavor_orc.1.d
-	picture = CIVIL_WAR_eventPicture
+	picture = BATTLE_eventPicture
 
 	is_triggered_only = yes
 
@@ -44,27 +44,30 @@ country_event = {
 }
 
 # Meat is back on the menu boys
-country_event = {
+province_event = {
 	id = flavor_orc.2
 	title = flavor_orc.2.t
 	desc = flavor_orc.2.d
-	picture = CIVIL_WAR_eventPicture
+	picture = FUR_TRADE_eventPicture
 
 	is_triggered_only = yes
 
 	trigger = {
 			religion_group = religion_orkish
 		NOT = {
-			has_country_modifier = stronger_orc_troops
-			has country_modifier = reinforce_orc_troops
+			has_country_modifier = orc_food_bonus
 		}
 
 	
 	}
 	
-	#Let them fight
+	#Finally some decend food
 	option = {
 		name = "flavor_orc.2.a"
+		add_country_modifier = {
+            	name = orc_food_bonus
+           	duration = 1095
+		}
         }
 }
 
@@ -73,7 +76,7 @@ country_event = {
 	id = flavor_orc.3
 	title = flavor_orc.3.t
 	desc = flavor_orc.3.d
-	picture = CIVIL_WAR_eventPicture
+	picture = ADVISOR_eventPicture
 
 	is_triggered_only = yes
 
