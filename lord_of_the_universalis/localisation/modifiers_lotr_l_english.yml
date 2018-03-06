@@ -205,7 +205,7 @@
  
  province_dol_amroth_coast_raided: "Coastline Raided"
  desc_province_dol_amroth_coast_raided: "Our Coastline has been raided."
- 
+
  #----------------------------
  # Dol Guldur
  #----------------------------
@@ -227,6 +227,12 @@
  
  dol_guldur_orcs_missing_meat: "Orcs Missing Meat"
  desc_dol_guldur_orcs_missing_meat: "Our Orcs hunger for meat, they are angry!"
+
+ #----------------------------
+ # Orcs
+ #----------------------------
+ stronger_orc_troops: "Stronger Orc Warriors."
+ reinforce_orc_troops: "More Orcs join your army."
  
  #----------------------------
  # Opinion

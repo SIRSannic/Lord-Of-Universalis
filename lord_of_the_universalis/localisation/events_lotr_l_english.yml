@@ -496,6 +496,18 @@
  flavor_dol_guldur.7.t: "Mordor Unleashed!"
  flavor_dol_guldur.7.d: "Mordor has been unleashed upon Middle-Earth and Sauron has officially revealed himself to the world."
  flavor_dol_guldur.7.a: "Playing As Mordor"
+
+#Orc Religion
+ flavor_orc.1.t: "Infighting"
+ flavor_orc.1.d: "The Orcs are fighting among eachother to determine who is the strongest. Some of your Orcs will perish in the process!"
+ flavor_orc.1.a: "Let them fight, We need only the strongest Orcs!"
+ flavor_orc.1.b: "Break up the fighting I need every single one of them!"
+ flavor_orc.2.t: "Our hunters return with a huge catch!"
+ flavor_orc.2.d: "The orc hunters have had a great hunt and return to our province with plenty of meat for our people to feed on."
+ flavor_orc.2.a: "Looks like meat is back on the menu boys!!!"
+ flavor_orc.3.t: "A new Warlord Rises"
+ flavor_orc.3.d: "A new orc warlord emerges from within your ranks! And takes command of a couple of our garrisons! It looks as if he has plenty of experience fighting."
+ flavor_orc.3.a: "Good! we could use a strong leader!!"
  
  # Events(Race Buffs)
  LOTR_HUMAN.1t: "You are human"
@@ -531,3 +543,12 @@
  LOTR_SPIDER.1t: "You are Spiders"
  LOTR_SPIDER.1d: "The Great Spiders, also known as the Spawn of Ungoliant, were a race of oversized and sentient arachnids that lived in Middle-Earth, particularly in dark and perilous places affected by the power of the Shadow.  Like Orcs and Goblins, Great Spiders were known to detest light, yet they thirsted for it and sought to devour it."
  LOTR_SPIDER.1a: "Understood!"
+ 
+ # Elections (Hobbits)
+ flavor_elections.1.t:0 "Election!"
+ flavor_elections.1.desc:0 "The term is up for $MONARCH$. With enough support he can stay in office, but then he must defeat his three primary competitors..."
+ flavor_elections.1.a:0 "Keep $MONARCH$"
+ flavor_elections.1.b:0 "Bureaucrat Candidate"
+ flavor_elections.1.c:0 "Diplomat Candidate"
+ flavor_elections.1.d:0 "Military Candidate"
+ flavor_elections.2.desc:0 "The unfortunate passing of $MONARCH$ forces us to hold a premature election. Three primary candidates have been nominated..."

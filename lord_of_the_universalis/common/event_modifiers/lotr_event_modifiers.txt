@@ -749,3 +749,21 @@ orc_religion_promise_war_but_didnt = {
 orc_religion_raided_neighbour_province = {
 	local_unrest = -2
 }
+
+#Orc Event modifiers
+
+stronger_orc_troops = {
+	infantry_power = 0.15
+	reinforce_speed = -0.10
+}
+
+reinforce_orc_troops = {
+	manpower_recovery_speed = 0.20
+	infantry_power = -0.05
+}
+
+orc_food_bonus = {
+	add_base_production = 1
+	change_trade_goods = livestock
+	add_piety = 0.25
+}
