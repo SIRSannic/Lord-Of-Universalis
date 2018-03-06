@@ -465,7 +465,39 @@
  flavor_dunedain.10.d: "The fight continues for our survival and our way of life. The people are afraid that this struggel may never end."
  flavor_dunedain.10.a: "It's a struggel we all face"
  
- #Orc Religion
+ #Dol Guldur
+ flavor_dol_guldur.1.t: "Thráin Has Been Captured"
+ flavor_dol_guldur.1.d: "Many years after the Desolation of Smaug, and the Dwarves re-settled in the ruins of Belegost. Many years later, Thráin grew older and he became restless. His desire to reclaim his kingdom of the Lonely Mountain grew. In TA 2841, he and a group of followers including Balin and Dwalin left their dwelling in the Blue Mountains and journeyed into Wilderland. They were pursued by the servants of Sauron and one morning, in the eaves of Mirkwood, his companions awoke to find that Thráin was missing. They searched in vain for him for days but he could not be found at all. It was later learned that he had been captured and imprisoned in the pits of Sauron's stronghold of Dol Guldur in southern Mirkwood. There he was tortured and Sauron took from him the last of the Dwarven Rings of Power, and left him there to die."
+ flavor_dol_guldur.1.a: "The Last Dwarven Ring Of Power!"
+ 
+ flavor_dol_guldur.2.t: "Gandalf Discovers The Dark Lord"
+ flavor_dol_guldur.2.d: "Gandalf The Grey has discovered the presence of the Dark Lord and no longer can we hide like we have done before."
+ flavor_dol_guldur.2.a: "I Will Break Him!"
+ 
+ flavor_dol_guldur.3.t: "Shrouded in Mystery"
+ flavor_dol_guldur.3.d: "Our Dark Lord is regenerating his strength, but inorder to not be found by the peoples of middle earth he must use some of his powers to hide his presence and the presence of orcs in and around Dol Guldur."
+ flavor_dol_guldur.3.a: "We Must Hide Until The Time Is Right"
+ 
+ flavor_dol_guldur.4.t: "Use Spiders To Patrol"
+ flavor_dol_guldur.4.d: "The Giant Spiders of Mirkwood have long been present, but since the arival of orcs and especially the Dark Lord, their numbers have grown significantly. We can use their service to patrol the borders of Mirkwood but we will have to reward them with the only thing spiders grave; Meat."
+ flavor_dol_guldur.4.a: "Bring The Meat"
+ flavor_dol_guldur.4.b: "Our Orcs Need The Meat"
+ 
+ flavor_dol_guldur.5.t: "Demand Guldurim For Troops"
+ flavor_dol_guldur.5.d: "The Guldurim, a tribe of Easterlings have lived in the shadows of Mirkwood of a long time before the orcs settled at Dol Guldur. They are loyal to The Dark Lord, as they have hated the elves battling for Southern Mirkwood. We could force their troops to join our orc ranks, but it will create unrest among them."
+ flavor_dol_guldur.5.a: "Demand The Troops"
+ flavor_dol_guldur.5.b: "Good Relations Is What We Need"
+ 
+ flavor_dol_guldur.6.t: "Unleash Mordor!"
+ flavor_dol_guldur.6.d: "Mordor has been unleashed upon Middle-Earth and Sauron has officially revealed himself to the world."
+ flavor_dol_guldur.6.a: "Switch To Play Mordor"
+ flavor_dol_guldur.6.b: "Keep Playing Dol Guldur But Become A March"
+ 
+ flavor_dol_guldur.7.t: "Mordor Unleashed!"
+ flavor_dol_guldur.7.d: "Mordor has been unleashed upon Middle-Earth and Sauron has officially revealed himself to the world."
+ flavor_dol_guldur.7.a: "Playing As Mordor"
+
+#Orc Religion
  flavor_orc.1.t: "Infighting"
  flavor_orc.1.d: "The Orcs are fighting among eachother to determine who is the strongest. Some of your Orcs will perish in the process!"
  flavor_orc.1.a: "Let them fight, We need only the strongest Orcs!"
@@ -476,8 +508,6 @@
  flavor_orc.3.t: "A new Warlord Rises"
  flavor_orc.3.d: "A new orc warlord emerges from within your ranks! And takes command of a couple of our garrisons! It looks as if he has plenty of experience fighting."
  flavor_orc.3.a: "Good! we could use a strong leader!!"
-
- 
  
  # Events(Race Buffs)
  LOTR_HUMAN.1t: "You are human"

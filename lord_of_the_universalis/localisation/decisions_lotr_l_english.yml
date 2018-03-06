@@ -85,6 +85,25 @@
  build_saurons_road_title: "Build Sauron's Road"
  build_saurons_road_desc: "For fast movement across the barren wastes of Mordor, Sauron build a network of roads to quickly move production from Barad-Dûr to the Black Gates, and south again to Cirith Ungol. The Construction can take 3 years, and will cause the loss of many orc workers."
  
+ # Decisions (Dol Guldur)
+ dol_guldur_secure_dol_guldur_title: "Gather Strength: Secure Dol Guldur"
+ dol_guldur_secure_dol_guldur_desc: "Inorder to secure our Saurons Strength, we must secure that Dol Guldur Doesn't get attacked by nearby enermies. If we complete all the tasks, then Sauron will be ready to reveal himself and to unleash the forces of Mordor upon Middle-Earth."
+ 
+ dol_guldur_build_up_reserves_title: "Gather Strength: Build Up Reserves"
+ dol_guldur_build_up_reserves_desc: "Inorder to secure our Saurons Strength, we must secure that Dol Guldur has reserves of food, weapons and materials. If we complete all the tasks, then Sauron will be ready to reveal himself and to unleash the forces of Mordor upon Middle-Earth."
+ 
+ dol_guldur_erebor_situation_title: "Gather Strength: Secure Erebor"
+ dol_guldur_erebor_situation_desc: "Inorder to secure our Saurons Strength, we must secure that The Kingdom Under The Mountain does not return to power in northern Middle-Earth. If we complete all the tasks, then Sauron will be ready to reveal himself and to unleash the forces of Mordor upon Middle-Earth."
+ 
+ dol_guldur_secure_border_to_mordor_title: "Gather Strength: Secure Border to Mordor"
+ dol_guldur_secure_border_to_mordor_desc: "Inorder to secure our Saurons Strength, we must secure that Dol Guldur has a steady supply line all the way to Mordor when the Battle of Middle-Earth commences. If we complete all the tasks, then Sauron will be ready to reveal himself and to unleash the forces of Mordor upon Middle-Earth."
+ 
+ dol_guldur_secure_power_title: "Gather Strength: Secure Power"
+ dol_guldur_secure_power_desc: "Inorder to secure our Saurons Strength, we must secure that Dol Guldur Strength in Millitary, Resources and Food is secured. If we complete all the tasks, then Sauron will be ready to reveal himself and to unleash the forces of Mordor upon Middle-Earth."
+ 
+ dol_guldur_finish_securing_strength_title: "Reveal The Dark Lord!"
+ dol_guldur_finish_securing_strength_desc: "Reveal The Dark Lord to all of Middle-Earth and unleash the power of Mordor!"
+ 
  # Advisor Decisions
  consult_the_elders_title: "Consult our Elders"
  consult_the_elders_desc: "Our elders often have valuable advice relevant to our current predicaments, but we must listen to them first, else lose their valuable experience."

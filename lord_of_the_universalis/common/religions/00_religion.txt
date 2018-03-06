@@ -297,7 +297,7 @@ religion_group_edain = {
 	
 	religion_haldadian = {
 		icon = 1
-		color = { 0.90 0.87 0.23 }
+		color = { 0.6 0.3 0.0 }
 		
 		country = {
 			siege_ability = 0.15
@@ -329,7 +329,7 @@ religion_group_edain = {
 	
 	religion_lossoth = {
 		icon = 1
-		color = { 0.46 0.35 0.05 }
+		color = { 0.9 1.0 1.0 }
 		
 		country = {
 			improve_relation_modifier = 0.25
@@ -353,7 +353,7 @@ religion_group_hildor = {
 	
 	religion_southron = {
 		icon = 2
-		color = { 0.85 0.11 0.18 }
+		color = { 1.0 1.0 0.2 }
 		
 		country = {
 			hostile_attrition = 1
@@ -521,7 +521,7 @@ religion_group_hildor = {
 	
 	religion_easterlings = {
 		icon = 2
-		color = { 0.71 0.28 0.32 }
+		color = { 0.8 0.8 0.5 }
 		
 		country = {
 			legitimacy = 0.5
@@ -592,7 +592,7 @@ religion_group_melkor = {
 	
 	religion_orkish = {
 		icon = 2
-		color = { 0.74 0.27 0.09 }
+		color = { 0.9 0.0 0.2 }
 		
 		country = {
 			war_exhaustion = -0.25
@@ -603,7 +603,7 @@ religion_group_melkor = {
 			tolerance_own = 1
 		}
 		
-		fervor = yes
+		uses_piety = yes
 	}
 	
 	religion_goblin = {
@@ -619,7 +619,7 @@ religion_group_melkor = {
 			tolerance_own = 1
 		}
 		
-		fervor = yes
+		uses_piety = yes
 	}
 	
 	religion_uruk = {
@@ -685,6 +685,26 @@ religion_group_melkor = {
 		
 		fervor = yes
 	}
+	
+	religion_burz_uruk = {
+		icon = 2
+		color = { 0.74 0.27 0.09 }
+		
+		country = {
+			war_exhaustion = -0.25
+			reinforce_cost_modifier = -0.50
+		}
+		country_as_secondary = {
+			global_colonial_growth = 10
+			tolerance_own = 1
+		}
+		
+		uses_piety = yes
+		
+		#authority = yes
+		#religious_reforms = yes
+		#reform_tooltip = INTI_REFORM_TOOLTIP
+	}
 }
 
 religion_group_sun = {
@@ -695,7 +715,7 @@ religion_group_sun = {
 	
 	religion_sun = {
 		icon = 1
-		color = { 0.78 0.77 0.53 }
+		color = { 0.9 0.4 0.0 }
 		
 		country = {
 			fort_maintenance_modifier = -0.25

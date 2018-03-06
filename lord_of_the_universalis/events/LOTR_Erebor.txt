@@ -968,55 +968,55 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-			has_country_flag = desolation_of_smaug_lost
-			has_country_flag = war_of_the_dwarves_and_orcs
-			has_country_flag = war_of_the_dwarves_and_orcs_starts
-			tag = Z71
-			882 = {
-				owned_by = Z71
-				}
-			285 = {
-				owned_by = Z71
-				}
-			676 = {
-				owned_by = Z71
-				}
-			had_recent_war = 0.1
-			NOT = { 
-				exists = Z73 	
-				has_country_flag = war_of_the_dwarves_and_orcs_lost
+		has_country_flag = desolation_of_smaug_lost
+		has_country_flag = war_of_the_dwarves_and_orcs
+		has_country_flag = war_of_the_dwarves_and_orcs_starts
+		tag = Z71
+		882 = {
+			owned_by = Z71
 			}
+		285 = {
+			owned_by = Z71
+			}
+		676 = {
+			owned_by = Z71
+			}
+		had_recent_war = 0.1
+		NOT = { 
+			exists = Z73 	
+			has_country_flag = war_of_the_dwarves_and_orcs_lost
 		}
+	}
 
 	option = {
 		name = "war_of_the_dwarves_and_orcs.5.a"
-			change_tag = Z73
-			add_stability = 2
-			add_prestige = 50
-			add_legitimacy = 25
-			set_country_flag = war_of_the_dwarves_and_orcs_wins
-			clr_country_flag = war_of_the_dwarves_and_orcs_starts
-			clr_country_flag = war_of_the_dwarves_and_orcs
-			hidden_effect = {
-			remove_accepted_culture = culture_goblins
-			882 = {
-				change_culture = culture_longbeard
-				change_religion = religion_mahal
-				}
-			285 = {
-				change_culture = culture_longbeard
-				change_religion = religion_mahal
-				}
-			888 = {
-				change_culture = culture_wilderness
-				change_religion = religion_wilderness
-				}
-			676 = {
-				change_culture = culture_wilderness
-				change_religion = religion_wilderness
-				}
+		change_tag = Z73
+		add_stability = 2
+		add_prestige = 50
+		add_legitimacy = 25
+		set_country_flag = war_of_the_dwarves_and_orcs_wins
+		clr_country_flag = war_of_the_dwarves_and_orcs_starts
+		clr_country_flag = war_of_the_dwarves_and_orcs
+		hidden_effect = {
+		remove_accepted_culture = culture_goblins
+		882 = {
+			change_culture = culture_longbeard
+			change_religion = religion_mahal
 			}
-		}			
+		285 = {
+			change_culture = culture_longbeard
+			change_religion = religion_mahal
+			}
+		888 = {
+			change_culture = culture_wilderness
+			change_religion = religion_wilderness
+			}
+		676 = {
+			change_culture = culture_wilderness
+			change_religion = religion_wilderness
+			}
+		}
+	}			
 }
 
 country_event = {
@@ -1029,38 +1029,38 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-			has_country_flag = desolation_of_smaug_lost
-			has_country_flag = war_of_the_dwarves_and_orcs
-			has_country_flag = war_of_the_dwarves_and_orcs_starts
-			tag = Z71
-			war_with = Z64
-			882 = {
-				owned_by = Z64
-				}
-			285 = {
-				owned_by = Z64
-				}
-			676 = {
-				owned_by = Z64
-				}
-			571 = {
-				controlled_by = Z64
-				}
-			881 = {
-				controlled_by = Z64
-				}
-			NOT = {  	
-				has_country_flag = war_of_the_dwarves_and_orcs_lost
-				has_country_flag = war_of_the_dwarves_and_orcs_wins
-				any_province = {
-					num_of_units_in_province = {
-					who = Z71
-					amount = 1
-					}
-				}		
+		has_country_flag = desolation_of_smaug_lost
+		has_country_flag = war_of_the_dwarves_and_orcs
+		has_country_flag = war_of_the_dwarves_and_orcs_starts
+		tag = Z71
+		war_with = Z64
+		882 = {
+			owned_by = Z64
 			}
+		285 = {
+			owned_by = Z64
+			}
+		676 = {
+			owned_by = Z64
+			}
+		571 = {
+			controlled_by = Z64
+			}
+		881 = {
+			controlled_by = Z64
+			}
+		NOT = {  	
+			has_country_flag = war_of_the_dwarves_and_orcs_lost
+			has_country_flag = war_of_the_dwarves_and_orcs_wins
+			any_province = {
+				num_of_units_in_province = {
+				who = Z71
+				amount = 1
+				}
+			}		
 		}
-	
+	}
+
 	immediate = {
 		white_peace = Z64
 	}
@@ -1068,108 +1068,108 @@ country_event = {
 	option = {
 		name = "war_of_the_dwarves_and_orcs.6.a"
 		custom_tooltip = war_of_the_dwarves_and_orcs_text_2
-			add_prestige = -50
-			set_country_flag = war_of_the_dwarves_and_orcs_lost
-			clr_country_flag = war_of_the_dwarves_and_orcs_starts
-			clr_country_flag = war_of_the_dwarves_and_orcs
-			hidden_effect = {
-				if = { 
-			limit = {
-					X02 = {
+		add_prestige = -50
+		set_country_flag = war_of_the_dwarves_and_orcs_lost
+		clr_country_flag = war_of_the_dwarves_and_orcs_starts
+		clr_country_flag = war_of_the_dwarves_and_orcs
+		hidden_effect = {
+			if = { 
+		limit = {
+				X02 = {
+				ai = yes
+				}
+			}
+			239 = {
+			cede_province = X02
+			add_core = X02
+			change_culture = culture_longbeard
+			change_religion = religion_mahal
+			change_trade_goods = gold
+			add_province_modifier = {
+					name = constructing_capital_debuff
+							duration = 364
+									}
+			}
+			666 = {
+			cede_province = X02
+			add_core = X02
+			change_culture = culture_longbeard
+			change_religion = religion_mahal
+			change_trade_goods = iron
+			}
+			if = {
+				limit = {
+					tag = Z71
+					Z71 = {
 					ai = yes
 					}
 				}
-				239 = {
-				cede_province = X02
-				add_core = X02
-				change_culture = culture_longbeard
-				change_religion = religion_mahal
-				change_trade_goods = gold
-				add_province_modifier = {
-						name = constructing_capital_debuff
-								duration = 364
-										}
+				Z71 = {
+				change_tag = X02
+				set_capital = 239
 				}
-				666 = {
-				cede_province = X02
-				add_core = X02
-				change_culture = culture_longbeard
-				change_religion = religion_mahal
-				change_trade_goods = iron
-				}
-				if = {
-					limit = {
-						tag = Z71
-						Z71 = {
-						ai = yes
-						}
-					}
-					Z71 = {
-					change_tag = X02
-					set_capital = 239
-					}
-				}
-				
-				if = {
-					limit = {
-						tag = Z71
-						Z71 = {
-						ai = no
-						}
-					}
-					Z71 = {
-					switch_tag = X02
-					set_capital = 239
-					}
-				}
-				
-				X02 = {
-					set_country_flag = war_of_the_dwarves_and_orcs_lost
-					set_country_flag = desolation_of_smaug_lost
-					}
-				}
-			if = { 
+			}
+			
+			if = {
 				limit = {
-					X02 = {
+					tag = Z71
+					Z71 = {
 					ai = no
 					}
 				}
-				239 = {
-				cede_province = Z75
-				add_core = Z75
-				change_culture = culture_longbeard
-				change_religion = religion_mahal
-				change_trade_goods = gold
-				add_province_modifier = {
-						name = constructing_capital_debuff
-						duration = 364
-					}
-				}
-				666 = {
-				cede_province = Z75
-				add_core = Z75
-				change_culture = culture_longbeard
-				change_religion = religion_mahal
-				change_trade_goods = iron
-				}
 				Z71 = {
-					change_tag = Z75
-					set_capital = 239
-					}
-				}
-				#all_province = {
-				#	limit = {
-				#		owned_by = Z71
-				#	}
-				#	remove_core = Z71
-				#}
-				country_event = {
-					id = flavor_ere.15
-					days = 1
+				switch_tag = X02
+				set_capital = 239
 				}
 			}
-		}			
-	}
+			
+			X02 = {
+				set_country_flag = war_of_the_dwarves_and_orcs_lost
+				set_country_flag = desolation_of_smaug_lost
+				}
+			}
+		if = { 
+			limit = {
+				X02 = {
+				ai = no
+				}
+			}
+			239 = {
+			cede_province = Z75
+			add_core = Z75
+			change_culture = culture_longbeard
+			change_religion = religion_mahal
+			change_trade_goods = gold
+			add_province_modifier = {
+					name = constructing_capital_debuff
+					duration = 364
+				}
+			}
+			666 = {
+			cede_province = Z75
+			add_core = Z75
+			change_culture = culture_longbeard
+			change_religion = religion_mahal
+			change_trade_goods = iron
+			}
+			Z71 = {
+				change_tag = Z75
+				set_capital = 239
+				}
+			}
+			#all_province = {
+			#	limit = {
+			#		owned_by = Z71
+			#	}
+			#	remove_core = Z71
+			#}
+			country_event = {
+				id = flavor_ere.15
+				days = 1
+			}
+		}
+	}			
+}
 		
 country_event = {
 	id = flavor_ere.15
@@ -1181,49 +1181,50 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-			has_country_flag = desolation_of_smaug_lost
-			has_country_flag = war_of_the_dwarves_and_orcs_lost
-			tag = X02
-			571 = {
-				owned_by = Z71
-				}
-			881 = {
-				owned_by = Z71
-				}
-		}
+		has_country_flag = desolation_of_smaug_lost
+		has_country_flag = war_of_the_dwarves_and_orcs_lost
+		tag = X02
+		571 = {
+			owned_by = Z71
+			}
+		881 = {
+			owned_by = Z71
+			}
+	}
 
 	option = {
 		name = "war_of_the_dwarves_and_orcs.7.a"
-				571 = {
-				cede_province = XXX
-				change_culture = culture_wilderness
-				change_religion = religion_wilderness
-				remove_core = Z71
-				add_province_modifier = {
-						name = wilderness_debuff
-								duration = -1
-										}
-				}
-				881 = {
-				cede_province = XXX
-				change_culture = culture_wilderness
-				change_religion = religion_wilderness
-				remove_core = Z71
-				add_province_modifier = {
-						name = wilderness_debuff
-								duration = -1
-										}
-				}
-				hidden_effect = {
-					every_province = {
-							kill_units = {
-							who = Z71
-							amount = 1000
-							}
+		571 = {
+		cede_province = XXX
+		change_culture = culture_wilderness
+		change_religion = religion_wilderness
+		remove_core = Z71
+		add_province_modifier = {
+				name = wilderness_debuff
+						duration = -1
+								}
+		}
+		881 = {
+		cede_province = XXX
+		change_culture = culture_wilderness
+		change_religion = religion_wilderness
+		remove_core = Z71
+		add_province_modifier = {
+				name = wilderness_debuff
+						duration = -1
+								}
+		}
+		hidden_effect = {
+			every_province = {
+					kill_units = {
+					who = Z71
+					amount = 1000
 					}
-				}
-		}			
-	}
+			}
+		}
+	}			
+}
+	
 country_event = {
 	id = flavor_ere.16
 	title = "war_of_the_dwarves_and_orcs.8.t"

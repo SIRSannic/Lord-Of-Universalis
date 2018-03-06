@@ -126,3 +126,11 @@ dol_amroth_send_med_men = {
 dol_amroth_send_high_men = {
 	opinion = 50
 }
+
+dol_guldur_servant = {
+	opinion = 200
+}
+
+mordor_master = {
+	opinion = 200
+}

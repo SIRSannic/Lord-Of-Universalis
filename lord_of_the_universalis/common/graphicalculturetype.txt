@@ -8,3 +8,4 @@ northamericagfx
 southamericagfx
 inuitgfx
 lotr_gondorian_gfx
+lotr_orc_gfx

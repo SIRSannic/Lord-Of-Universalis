@@ -1,6 +1,7 @@
 country_decisions = {
 	
 	rebuild_barad_dur = {
+		major = yes
 	
 		potential = {
 			tag = X84
@@ -47,6 +48,7 @@ country_decisions = {
 	
 	#Sauron’s Road
 	build_saurons_road = {
+		major = yes
 	
 		potential = {
 			tag = X84

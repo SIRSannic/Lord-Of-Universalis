@@ -1,6 +1,7 @@
 mercantilism = 0.1
 government = lotr_hand_of_mordor
 primary_culture = culture_orkish
+add_accepted_culture = culture_guldurim
 religion = religion_orkish
 technology_group = lotr_orc
 capital = 310
