@@ -47,7 +47,7 @@ discovered_by = lotr_uruk_hai
 discovered_by = lotr_dragon
 discovered_by = lotr_nazgul
 
-2769.1.1 = {
+2758.1.1 = {
 	add_core = Z74
 	controller = Z74
 	owner = Z74

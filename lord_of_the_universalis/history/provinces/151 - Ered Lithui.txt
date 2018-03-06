@@ -18,8 +18,8 @@ base_tax = 1
 base_production= 3
 base_manpower = 4
 
-culture = culture_nurnim
-religion = religion_nurning
+culture = culture_orkish 
+religion = religion_orkish
 
 trade_goods = grain
 hre = no

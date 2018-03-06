@@ -47,10 +47,10 @@ discovered_by = lotr_uruk_hai
 discovered_by = lotr_dragon
 discovered_by = lotr_nazgul
 
-2758.10.10 = {
-	add_core = Z18
-	controller = Z18
-}
+#2758.10.10 = {
+#	add_core = Z18
+#	controller = Z18
+#}
 
 2759.1.4 = {
 	controller = X70

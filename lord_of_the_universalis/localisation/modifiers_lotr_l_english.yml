@@ -206,6 +206,27 @@
  province_dol_amroth_coast_raided: "Coastline Raided"
  desc_province_dol_amroth_coast_raided: "Our Coastline has been raided."
  
+ #----------------------------
+ # Dol Guldur
+ #----------------------------
+ 
+ dol_guldur_thrain_captured: "Dwarven Rings Of Power"
+ desc_dol_guldur_thrain_captured: "Regaining all Dwarven Rings of Power is a great achievement for our master."
+ 
+ dol_guldur_gandalf_discovered: "Discovered"
+ desc_dol_guldur_gandalf_discovered: "Gandalf The Grey has discovered the presence of the Dark Lord."
+ 
+ dol_guldur_shrouded_mystery: "Shrouded In Mystery"
+ desc_dol_guldur_shrouded_mystery: "Our Dark Lord is regenerating his strength, but inorder to not be found by the peoples of middle earth he must use some of his powers to hide his presence and the presence of orcs in and around Dol Guldur."
+ 
+ dol_guldur_province_spider_patrol: "Spider Patrols"
+ desc_dol_guldur_province_spider_patrol: "The Giant Spiders of Mirkwood have long been present, but since the arival of orcs and especially the Dark Lord, their numbers have grown significantly. We have send out the spiders to patrol Mirkwood."
+ 
+ dol_guldur_ask_guldurim_troops: "Coastline Raided"
+ desc_dol_guldur_ask_guldurim_troops: "The Guldurim, a tribe of Easterlings have lived in the shadows of Mirkwood of a long time before the orcs settled at Dol Guldur. They are loyal to The Dark Lord, as they have hated the elves battling for Southern Mirkwood. We forced their troops to join our ranks."
+ 
+ dol_guldur_orcs_missing_meat: "Orcs Missing Meat"
+ desc_dol_guldur_orcs_missing_meat: "Our Orcs hunger for meat, they are angry!"
  
  #----------------------------
  # Opinion
@@ -232,6 +253,8 @@
  dol_amroth_send_low_men: "Dol Amroth Send Small Unit"
  dol_amroth_send_med_men: "Dol Amroth Send Medium Unit"
  dol_amroth_send_high_men: "Dol Amroth Send Large Unit"
+ dol_guldur_servant: "Servant"
+ mordor_master: "Master"
  
  #----------------------------
  # Triggered

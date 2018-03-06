@@ -18,65 +18,89 @@ province_event = {
 	major = yes
 
 	trigger = {
-		NOT = { exists = X84 }
+		
+		NOT = {
+			exists = X84 
+			has_global_flag = mordor_spawned
+		}
+		
 		is_year = 2942
+		
 		mordor_region = {
 			is_empty = yes
 		}
 	}
 	option = { 
 		name = flavor_mordor.1.a
+		
 		mordor_region = {
 			add_core = X84
-		}		
+		}
+		
 		mordor_region = {
 			limit = {
 				is_empty = yes
 			}
+			
 			cede_province = X84
-			set_capital = 654
+			#set_capital = 654
+			
 			691 = {
 				change_culture = culture_orkish
 				change_religion = religion_orkish
 				change_trade_goods = stone
+				
+				add_province_modifier = {
+					name = ruins_debuff 
+					duration = 1095
 				}
+			}
+				
 			72 = {
 				change_culture = culture_orkish
 				change_religion = religion_orkish
 				change_trade_goods = livestock
-				}
+			}
+				
 			662 = {
 				change_culture = culture_orkish
 				change_religion = religion_orkish
 				change_trade_goods = iron
-				}
+			}
+				
 			147 = {
 				change_culture = culture_orkish
 				change_religion = religion_orkish
 				change_trade_goods = iron
-				}
+			}
 
 			150 = {
 				change_culture = culture_orkish
 				change_religion = religion_orkish
 				change_trade_goods = livestock
-				}
+			}
 
 			151 = {
 				change_culture = culture_orkish
 				change_religion = religion_orkish
 				change_trade_goods = stone
-				}
+			}
+			
 			148 = {
 				change_culture = culture_orkish
 				change_religion = religion_orkish
 				change_trade_goods = stone
-				}
+			}
 
 			654 = {
 				change_culture = culture_orkish
 				change_religion = religion_orkish
 				change_trade_goods = livestock
+				
+				add_province_modifier = {
+						name = ruins_debuff 
+						duration = 1095
+					}
 				}
 			149 = {
 				change_culture = culture_orkish
@@ -134,40 +158,71 @@ province_event = {
 				value = 100
 			}
 		}
+		
 		gondor_region = {
 			limit = {
 				is_empty = yes
 			}
+			
 			cede_province = X84
 			426 = {
 				change_culture = culture_orkish
 				change_religion = religion_orkish
 				change_trade_goods = iron
 				
-					add_institution_embracement = {
-						which = renaissance
-						value = 100
-					}
-					add_institution_embracement = {
-						which = feudalism
-						value = 100
-					}
-					add_institution_embracement = {
-						which = new_world_i
-						value = 100
-					}
-					add_institution_embracement = {
-						which = printing_press
-						value = 100
-					}
-					add_institution_embracement = {
-						which = global_trade
-						value = 100
-					}
+				add_institution_embracement = {
+					which = renaissance
+					value = 100
+				}
+				add_institution_embracement = {
+					which = feudalism
+					value = 100
+				}
+				add_institution_embracement = {
+					which = new_world_i
+					value = 100
+				}
+				add_institution_embracement = {
+					which = printing_press
+					value = 100
+				}
+				add_institution_embracement = {
+					which = global_trade
+					value = 100
 				}
 			}
 		}
+		
+		X84 = {
+			create_march = Z03
+		}
+		
+		X84 = {
+			add_opinion = {
+				who = Z03
+				modifier = dol_guldur_servant
+				years = 500
+			}
+		}
+		
+		Z03 = {
+			add_opinion = {
+				who = X84
+				modifier = mordor_master
+				years = 500
+			}
+		}
+		
+		hidden_effect = {
+			set_capital = 654
+		}
+		
+		#country_event = {
+		#	id = flavor_mordor.3
+		#	days = 30
+		#}
 	}
+}
 
 # Nurn join Mordor
 country_event = {
@@ -178,45 +233,53 @@ country_event = {
 
 	major = yes
 	
+	#is_triggered_only = yes
 	fire_only_once = yes
 	
 	
 	trigger = {
-		tag = X84
-		AND = { exists = X84 }
-		is_year = 2942
-		is_subject = no
-		OR = {
-		X20 = {
-			exists = yes
-			ai = yes
-			was_player = no
+	
+		AND = { 
+			tag = X84
+			exists = X84
 			is_subject = no
-			is_neighbor_of = ROOT
+		}
+		
+		OR = {
+			X20 = {
+				exists = yes
+				ai = yes
+				was_player = no
+				is_subject = no
+				is_neighbor_of = ROOT
 			}
 		}
-			NOT = { war_with = X20 }
-		}
-
-	mean_time_to_happen = {
-		months = 1
+		NOT = { war_with = X20 }
 	}
-	
+
+	#mean_time_to_happen = {
+	#	months = 1
+	#}
 	
 	option = {		# gets a union
 		name = "flavor_mordor.3.a"
+		
 		ai_chance = { factor = 90 }
+		
 		create_union = X20
+		
 		add_opinion = {
 			who = X20
 			modifier = mordor_union
 		}
+		
 		X20 = {
 			add_opinion = {
 				who = ROOT
 				modifier = mordor_union
 			}
 		}
+		
 		every_known_country = {
 			limit = {
 				marriage_with = X20
@@ -227,10 +290,14 @@ country_event = {
 			}
 		}
 	}
+	
 	option = {		# No 
 		name = "flavor_mordor.3.b"
+		
 		ai_chance = { factor = 10 }
+		
 		add_stability = 1
+		
 		X20 = {
 			add_opinion = {
 				who = ROOT
@@ -404,6 +471,7 @@ country_event = {
 			add_base_manpower = 3
 			add_base_production = 3
 			add_base_tax = 3
+			add_building = fort_16th
 			remove_province_modifier = ruins_debuff
 			remove_building = resettelment
 		}

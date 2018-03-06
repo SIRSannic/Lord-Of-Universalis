@@ -2,7 +2,7 @@
 --
 -- NDefines.NDiplomacy.MAX_CLIENT_STATES = 20
 
-NDefines.NGame.START_DATE = "2560.1.1"
+NDefines.NGame.START_DATE = "2758.1.1"
 NDefines.NGame.END_DATE = "3500.1.1"
 NDefines.NGame.MAX_RANDOM_NEW_WORLD = "3500.1.1"
 

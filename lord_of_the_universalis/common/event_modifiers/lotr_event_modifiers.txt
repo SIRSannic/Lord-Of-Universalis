@@ -683,3 +683,69 @@ dol_guldur_gandalf_discovered = {
 dol_guldur_shrouded_mystery = {
 	global_spy_defence = 0.5
 }
+
+dol_guldur_province_spider_patrol = {
+	local_defensiveness = 0.1
+	local_hostile_attrition = 1
+}
+
+dol_guldur_ask_guldurim_troops = {
+	global_unrest = 1
+}
+
+dol_guldur_orcs_missing_meat = {
+	global_unrest = 1
+}
+
+orc_religion_punish_survivers = {
+	tolerance_own = -1
+	discipline = 0.05
+}
+
+orc_religion_reward_victors = {
+	tolerance_own = 1
+	global_autonomy = 0.05
+}
+
+orc_religion_give_meat = {
+	production_efficiency = 0.05
+}
+
+orc_religion_dont_give_meat = {
+	tolerance_own = -1
+	production_efficiency = -0.1
+}
+
+orc_religion_force_train = {
+	tolerance_own = -1
+	shock_damage_received = -0.25
+}
+
+orc_religion_loose_formation = {
+	shock_damage = 0.25
+	movement_speed = 0.15
+}
+
+orc_religion_prepare_for_war = {
+	tolerance_own = -1
+	global_regiment_cost = -0.15
+	land_maintenance_modifier = -0.15
+	mil_tech_cost_modifier = -0.05
+	production_efficiency = 0.05
+}
+
+orc_religion_promise_war = {
+	tolerance_own = 1
+	stability_cost_modifier = -0.25
+	war_exhaustion = -0.25
+}
+
+orc_religion_promise_war_but_didnt = {
+	tolerance_own = -2
+	land_maintenance_modifier = 0.05
+	production_efficiency = -0.05
+}
+
+orc_religion_raided_neighbour_province = {
+	local_unrest = -2
+}

@@ -3,7 +3,7 @@ government = lotr_kingship
 primary_culture = culture_stoor
 religion = religion_perian
 technology_group = lotr_hobbit
-capital = 271
+capital = 2595
 government_rank = 1
 
 9650.1.1 = {

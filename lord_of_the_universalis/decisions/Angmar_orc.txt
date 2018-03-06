@@ -10,6 +10,11 @@ country_decisions = {
 			}
 			AND = {
 				primary_culture = culture_orkish
+				OR = {
+					tag = X09
+					tag = X64
+					tag = Z04
+				}
 			}
 			OR = {
 				ai = no

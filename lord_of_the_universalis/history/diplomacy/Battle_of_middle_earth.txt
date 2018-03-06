@@ -135,7 +135,7 @@ dependency = {
 # Dol Guldur And Shadows of Mirkwood
 vassal = {
 	first = Z03
-	second = X21
+	second = X16
 	start_date = 2560.1.1
 	end_date = 3500.1.1
 }

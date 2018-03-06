@@ -55,7 +55,7 @@ discovered_by = lotr_uruk_hai
 discovered_by = lotr_dragon
 discovered_by = lotr_nazgul
 
-fort_15th = yes
+
 
 2942.1.1 = {
 	add_core = X84
@@ -67,6 +67,7 @@ fort_15th = yes
 
 2960.1.1 = {
 	remove_province_modifier = ruins_debuff
+	fort_16th = yes
 }
 
 3019.4.30 = {
