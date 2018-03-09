@@ -54,6 +54,7 @@ province_event = {
 
 	trigger = {
 			religion_group = religion_orkish
+			trade_goods = livestock
 		NOT = {
 			has_country_modifier = orc_food_bonus
 		}
@@ -64,9 +65,12 @@ province_event = {
 	#Finally some decend food
 	option = {
 		name = "flavor_orc.2.a"
+		add_piety = 0.25
+		add_base_production = 1
 		add_country_modifier = {
             	name = orc_food_bonus
-           	duration = 1095
+		duration = 1095
+
 		}
         }
 }
@@ -79,18 +83,17 @@ country_event = {
 	picture = ADVISOR_eventPicture
 
 	is_triggered_only = yes
-
-	trigger = {
-		religion_group = religion_orkish
-			if = {
-				limit = {
-					num_of_generals = <2
-					}
-					#A New Warlord Rises
-						option = {
-						name = "flavor_orc.3.a"
-						create_general = 45
-							}
-			}
-		}
+    	trigger = {
+        	religion_group = religion_orkish
+        	OR = {
+           	 num_of_generals = 1
+      	    	 num_of_generals = 0
+        	}
+	}
+	
+   		 #A New Warlord Rises
+ 	   	option = {
+      	  	name = "flavor_orc.3.a"
+        	create_general = 45
+    		}
 }
