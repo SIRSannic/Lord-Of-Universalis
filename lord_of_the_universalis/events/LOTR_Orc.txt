@@ -65,7 +65,7 @@ province_event = {
 	#Finally some decend food
 	option = {
 		name = "flavor_orc.2.a"
-		add_piety = 0.25
+		add_piety = 25
 		add_base_production = 1
 		add_country_modifier = {
             	name = orc_food_bonus
