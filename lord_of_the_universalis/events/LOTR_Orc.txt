@@ -79,18 +79,18 @@ country_event = {
 	picture = ADVISOR_eventPicture
 
 	is_triggered_only = yes
-
-	trigger = {
-		religion_group = religion_orkish
-			if = {
-				limit = {
-					num_of_generals = <2
-					}
-					#A New Warlord Rises
-						option = {
-						name = "flavor_orc.3.a"
-						create_general = 45
-							}
-			}
-		}
+    trigger = {
+        	religion_group = religion_orkish
+        	OR = {
+           	 num_of_generals = 1
+      	    	 num_of_generals = 0
+        	}
+	}
+	
+   		 #A New Warlord Rises
+ 	   	option = {
+      	  	name = "flavor_orc.3.a"
+        	create_general = 45
+    		}
 }
+
